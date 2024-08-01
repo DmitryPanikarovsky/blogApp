@@ -1,3 +1,16 @@
-button {
-    margin-top: 56px;      
+.button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    border: 1px solid #e7640d;
+    border-radius: 23px;
+    padding: 23px;
+    font-size: 34px;
+    transition: all .3s;
+    margin-right: 15px;
+
+    &:hover {
+        border: 1px solid #e4c0a7;
+        background: #e4c0a7;
+    }
 }

@@ -18,7 +18,7 @@ export const Counter = () => {
 			<button className={styles.button} onClick={Increment}>
 				Increment
 			</button>
-			<button className={"button"} onClick={Decrement}>
+			<button className={styles.button} onClick={Decrement}>
 				Decrement
 			</button>
 		</>

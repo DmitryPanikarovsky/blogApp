@@ -1,4 +1,4 @@
-import styles from '<FTName>.modules.scss';
+import styles from './<FTName>.module.scss';
 
 interface <FTName>Props {
 	className?: string;

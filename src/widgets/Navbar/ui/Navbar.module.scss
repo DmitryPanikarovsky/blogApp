@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0 10px;
     background: var(--inverted-bg-color);
 }
 
@@ -16,13 +16,4 @@
 .link {
     text-decoration: none;
     color: red;
-}
-
-.button {
-    cursor: pointer;
-    transition: all .3s;
-
-    &:hover {
-        background: #ccc;
-    }
 }

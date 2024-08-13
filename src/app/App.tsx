@@ -1,17 +1,20 @@
 import "./styles/index.scss";
 import { clNames } from "shared/lib/classNames/classNames";
 import { useTheme } from './providers/ThemeProvider';
-import { Link } from 'react-router-dom';
 import { AppRouter } from './providers/router'
 import { Navbar } from 'widgets/Navbar'
+import { Sidebar } from 'widgets/Sidebar'
 
 const App = () => {
 	const { theme } = useTheme();
 
 	return (
-		<div className={clNames("app", {}, [theme])}>
+		<div className={clNames('app', {}, [theme])}>
 			<Navbar/>
-			<AppRouter/>
+			<div className={'content-page'}>
+				<Sidebar/>
+				<AppRouter/>
+			</div>
 		</div>
 	);
 };

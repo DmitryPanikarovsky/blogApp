@@ -2,6 +2,7 @@ import { clNames } from 'shared/lib/classNames/classNames';
 import styles from './Sidebar.module.scss';
 import { useState } from 'react';
 import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher'
+import { LangSwitcher } from 'shared/ui/langSwitcher/langSwitcher'
 
 interface SidebarProps {
 	className?: string;
@@ -20,6 +21,7 @@ export const Sidebar = ({className}: SidebarProps) => {
 			<button onClick={onToggle}>toggle</button>
 			<div className={styles.switchers}>
 				<ThemeSwitcher />
+				<LangSwitcher />
 			</div>
 		</div>
 	);

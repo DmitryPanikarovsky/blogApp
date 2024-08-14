@@ -29,7 +29,7 @@ const App = () => {
 		<div className={clNames("app", {}, [theme])}>
 			<Suspense fallback="">
 				<Navbar />
-				<Component/>
+				<Component />
 				<div className={"content-page"}>
 					<Sidebar />
 					<AppRouter />

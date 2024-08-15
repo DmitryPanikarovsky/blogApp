@@ -1,15 +1,13 @@
-import { clNames } from 'shared/lib/classNames/classNames';
-import styles from './Navbar.module.scss';
-import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
-import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
-import { useTranslation } from 'react-i18next'
+import { clNames } from "shared/lib/classNames/classNames";
+import styles from "./Navbar.module.scss";
+import { AppLink, AppLinkTheme } from "shared/ui/AppLink/AppLink";
 
 interface NavbarProps {
-    className?: string;
+	className?: string;
 }
 
-export const Navbar = ({className }: NavbarProps) => {
-    return (
+export const Navbar = ({ className }: NavbarProps) => {
+	return (
 		<div className={clNames(styles.Navbar, {}, [className])}>
 			<div className={styles.links}>
 				<AppLink theme={AppLinkTheme.PRIMARY} to={"/"}>

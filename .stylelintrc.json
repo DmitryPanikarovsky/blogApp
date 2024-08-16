@@ -1,0 +1,11 @@
+{
+	"extends": "stylelint-config-standard-scss",
+	"rules": {
+		"indentation": [4],
+		"selector-class-pattern": null,
+		"no-missing-end-of-source-newline": null,
+		"number-leading-zero": null,
+		"no-eol-whitespace": null,
+		"block-no-empty": null
+	}
+}

@@ -12,7 +12,7 @@ module.exports = {
 	],
 	parserOptions: { ecmaVersion: "latest", sourceType: "module" },
 	settings: { react: { version: "detect" } },
-	plugins: ["react-refresh"],
+	plugins: ["react", "@typescript-eslint"],
 	rules: {
 		"react-refresh/only-export-components": [
 			"warn",
@@ -23,5 +23,8 @@ module.exports = {
 		quotes: ["error", "single"],
 		"react/prop-types": [0],
 		indent: ["error", "tab"],
+	},
+	globals: {
+		__IS_DEV__: true,
 	},
 };

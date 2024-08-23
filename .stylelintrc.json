@@ -6,6 +6,8 @@
 		"no-missing-end-of-source-newline": null,
 		"number-leading-zero": null,
 		"no-eol-whitespace": null,
-		"block-no-empty": null
+		"block-no-empty": null,
+		"number-max-precision": null,
+		"value-keyword-case": "lower"
 	}
 }

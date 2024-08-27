@@ -8,6 +8,9 @@
 		"no-eol-whitespace": null,
 		"block-no-empty": null,
 		"number-max-precision": null,
-		"value-keyword-case": "lower"
+		"value-keyword-case": null,
+		"string-quotes": null,
+		"scss/at-import-partial-extension": null,
+		"custom-property-empty-line-before": null
 	}
 }

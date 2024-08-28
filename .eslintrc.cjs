@@ -19,9 +19,9 @@ module.exports = {
 	},
 	plugins: ["react", "@typescript-eslint", "i18next"],
 	rules: {
-		"react/jsx-indent": [2, 4],
+		indent: [0],
+		"react/jsx-indent": [0, 4],
 		"react/jsx-indent-props": [2, 4],
-		indent: [2, 4],
 		"react/jsx-filename-extension": [
 			2,
 			{ extensions: [".js", ".jsx", ".tsx"] },
@@ -34,7 +34,7 @@ module.exports = {
 		"react/destructuring-assignment": "off",
 		"react/require-default-props": "off",
 		"react/react-in-jsx-scope": "off",
-		"react/jsx-props-no-spreading": "warn",
+		"react/jsx-props-no-spreading": "off",
 		"react/function-component-definition": "off",
 		"no-shadow": "off",
 		"no-tabs": "off",
@@ -44,8 +44,8 @@ module.exports = {
 		"import/extensions": "off",
 		"import/no-extraneous-dependencies": "off",
 		"no-underscore-dangle": "off",
-		"react/jsx-props-no-spreading": "off",
-		"i18next/no-literal-string": "warn",
+		quotes: "off",
+		"eol-last": "off",
 		"prefer-destructuring": [
 			"error",
 			{

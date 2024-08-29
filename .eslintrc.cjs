@@ -45,6 +45,7 @@ module.exports = {
 		"import/no-extraneous-dependencies": "off",
 		"no-underscore-dangle": "off",
 		quotes: "off",
+		// "comma-dangle": "off",
 		"eol-last": "off",
 		"prefer-destructuring": [
 			"error",

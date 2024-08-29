@@ -1,4 +1,4 @@
-import { clNames } from 'shared/lib/classNames/classNames';
+import { clNames } from './classNames';
 
 describe('classNames', () => {
     test('with only first param', () => {
@@ -45,7 +45,7 @@ describe('classNames', () => {
                 'someClass',
                 {
                     hovered: true,
-                    scrollable: undefined,
+                    scrollable: false,
                 },
                 ['class1', 'class2'],
             ),

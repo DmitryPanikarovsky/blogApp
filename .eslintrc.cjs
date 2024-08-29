@@ -36,6 +36,9 @@ module.exports = {
 		"react/react-in-jsx-scope": "off",
 		"react/jsx-props-no-spreading": "off",
 		"react/function-component-definition": "off",
+		"no-undef": "off",
+		"no-trailing-spaces": "off",
+		"func-names": "off",
 		"no-shadow": "off",
 		"no-tabs": "off",
 		"no-console": "off",
@@ -61,7 +64,7 @@ module.exports = {
 				ignoreAttribute: ["data-testid", "to"],
 			},
 		],
-		"max-len": ["error", { ignoreComments: true, code: 100 }],
+		"max-len": ["error", { ignoreComments: true, code: 110 }],
 	},
 	globals: {
 		__IS_DEV__: true,

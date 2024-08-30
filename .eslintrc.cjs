@@ -5,10 +5,11 @@ module.exports = {
 		jest: true,
 	},
 	extends: [
-		"plugin:react/recommended",
-		"airbnb",
-		"plugin:i18next/recommended",
-	],
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:i18next/recommended",
+        "plugin:storybook/recommended"
+    ],
 	parser: "@typescript-eslint/parser",
 	parserOptions: {
 		ecmaFeatures: {

@@ -8,7 +8,7 @@ module.exports = {
         "plugin:react/recommended",
         "airbnb",
         "plugin:i18next/recommended",
-        "plugin:storybook/recommended"
+        "plugin:storybook/recommended",
     ],
 	parser: "@typescript-eslint/parser",
 	parserOptions: {
@@ -22,7 +22,7 @@ module.exports = {
 	rules: {
 		indent: [0],
 		"react/jsx-indent": [0, 4],
-		"react/jsx-indent-props": [2, 4],
+		"react/jsx-indent-props": [0, 4],
 		"react/jsx-filename-extension": [
 			2,
 			{ extensions: [".js", ".jsx", ".tsx"] },

@@ -1,12 +1,22 @@
 .Button {
-    color: var(--inverted-primary-color);
+    color: var(--primary-color);
     cursor: pointer;
 }
 
 .clear {
     outline: none;
-    border: none;
-    padding: 0;
+    border: 1px solid #000;
+    background: none;
+    padding: 15px 40px;
+}
+
+.outline {
+    padding: 6px 15px;
+    border: 1px solid #ccc;
+    color: var(--primary-color);
     background: none;
 }
 
+.small {
+    font: var(--font-m);
+}
